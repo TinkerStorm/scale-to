@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "A functional utility to rescale numbers in a list to part of the given total.",
   "main": "./dist/index.js",
-  "repository": "git@github.com:TinkerStorm/scale-to.git",
+  "repository": "https://github.com/TinkerStorm/scale-to.git",
   "author": "Junior <sudojunior@outlook.com>",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "build": "tsc",
     "test": "ava",
