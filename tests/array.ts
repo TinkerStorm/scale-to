@@ -17,7 +17,7 @@ for (let i = 1; i <= 10; i++) {
     })
 
     const target = Math.ceil(Math.random() * 100);
-    test(`(iteration:${i},precision:${p},target:${target}) scales numbers to total of '1' with precision ${p}`, t => {
+    test(`(iteration:${i},precision:${p},target:${target}) scales numbers to total of '${target}' with precision ${p}`, t => {
       const obj = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
       const result = scaleTo(target, obj);
 
